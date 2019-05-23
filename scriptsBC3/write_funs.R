@@ -30,3 +30,12 @@ seMany <- lapply(many, s.err.na)
 df <- data.frame(row.names = 1:length(many))
 df$mean <- cbind(meanMany)
 df$se <- cbind(seMany)
+# an example using if else
+# can I call my mother in law?
+callDorothy <- function(x){
+  if (lubridate::hour(x - 6*60*60) < 8){
+    print('no')
+  } else{
+    print('yes')
+  }
+}
