@@ -1,3 +1,4 @@
+## crap
 library(lubridate)
 library(data.table)
 short <- fread('dataBC3/shortFile.csv')
